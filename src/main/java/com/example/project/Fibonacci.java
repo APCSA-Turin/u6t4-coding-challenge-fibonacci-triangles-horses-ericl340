@@ -36,7 +36,7 @@ public class Fibonacci {
       sequences longer than 2 numbers)
    */
   public int getIndexOf(int searchVal) {
-    for (int i = 2; i < sequence.length; i++) {
+    for (int i = 0; i < sequence.length; i++) {
       if (searchVal == sequence[i])
         return i;
     }
